@@ -26,6 +26,7 @@
             #log tr:hover {
                 background-color: #ddf;
             }
+            h1{ font-family: Consolas; }
         </style>
         <script>
 
@@ -84,7 +85,7 @@
   </head>
   <body>
      <div id="tab">
-       <h1>Text Log Reader</h1>
+       <h1>Text Log Reader <input id="btf" onchange="OnChange()" value="choose log file" type="file"></h1>
        <p>This will read the text file and will re-write this page, you can refresh to get this back</p>
         <input id="btf" onchange="OnChange()" value="choose log file" type="file">
       </div>
